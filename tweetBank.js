@@ -22,15 +22,15 @@ var randArrayEl = function(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 };
 
-var getFakeName = function() {
-  var fakeFirsts = ['Nimit', 'Dave', 'Shanna', 'Charlotte', 'Scott', 'Ayana', 'Omri', 'Gabriel', 'Joe'];
-  var fakeLasts = ['Hashington', 'Stackson', 'McQueue', 'OLogn', 'Ternary', 'Claujure', 'Dunderproto', 'Binder', 'Docsreader', 'Ecma'];
-  return randArrayEl(fakeFirsts) + ' ' + randArrayEl(fakeLasts);
+const getFakeName = function() {
+  const fakeFirsts = ['Toni', 'Guille', 'Santi', 'Facu', 'Alan', 'Pinki', 'Tincho', 'Solano', 'R2D2'];
+  const fakeLasts = ['Scanlan', 'Aszyn', 'Tralice', 'Velasco', 'Sainz', 'Palacio', 'Palacios', 'Lidueña', 'Fisicaro', 'Ecma'];
+  return randArrayEl(fakeFirsts) + " " + randArrayEl(fakeLasts);
 };
 
-var getFakeTweet = function() {
-  var awesomeAdj = ['awesome', 'breathtaking', 'amazing', 'funny', 'sweet', 'cool', 'wonderful', 'mindblowing'];
-  return 'Plataforma 5 is ' + randArrayEl(awesomeAdj) + '! The instructors are just so ' + randArrayEl(awesomeAdj) + '. #plataforma5love #codedreams';
+const getFakeTweet = function() {
+  const awesome_adj = ['increible', 'emocionante', 'increible', 'gracioso', 'dulce', 'cool',  'sorprendente', 'impresionante'];
+  return "Plataforma 5 es " + randArrayEl(awesome_adj) + "! Los profesores simplemente son " + randArrayEl(awesome_adj) + ". #P5Love #codedreams";
 };
 
 for (var i = 0; i < 10; i++) {
